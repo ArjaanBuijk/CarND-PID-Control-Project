@@ -8,7 +8,7 @@ The goals / steps of this project are the following:
 
 ---
 
-# 1. Files
+## 1. Files
 
 My project includes the following files:
 
@@ -22,7 +22,7 @@ My project includes the following files:
 
 
 ---
-# 2. Implementation of PI controller for throttle
+## 2. Implementation of PI controller for throttle
 
 I implemented a simple PI controller for the throttle, to keep the speed close to a target speed.
 
@@ -31,17 +31,17 @@ The target speed I used is 25.
 The controller was simply copied from the Term 1, Project 3.
 
 
-# 3. Implementation of P controller for the steering angle
+## 3. Implementation of P controller for the steering angle
 
 First, I implemented a P controller only. As expected, the car oscillates. It is possible to complete the track at low speeds, but at higher speeds, the oscilations grows and the car drives off the track. This video shows the behavior:
 ![track1](https://github.com/ArjaanBuijk/CarND-PID-Control-Project/blob/master/Videos/video_P.gif?raw=true)
 
 
-# 4. Implementation of PD controller for the steering angle
+## 4. Implementation of PD controller for the steering angle
 
-Then, to avoide the overshoot and oscillations, I added the D controller. This part of the controller 'counter steers' and avoids the overshoot or at least minimizes it. 
+To avoid the overshoot and oscillations, I added the D controller part. This part of the controller 'counter steers' and avoids the overshoot or at least minimizes it.
 
-I ran many cases, tweaking the parameters Kp and Kd, representing the Proposional and Differential coefficients. I basically used the 'Twiddle' approach in a manual manner. I increased or decreased each parameter a little bit, and based on the outcome, I increased or decreased them more. As the results got better or worse, I decreased the amount of change applied to the parameters, until the car drove nicely over the track.
+I ran many cases, tweaking the parameters Kp and Kd, representing the Proposional and Differential coefficients respectively. I used a 'Twiddle' approach in a manual manner. I increased or decreased each parameter a little bit, and based on the outcome, I increased or decreased them more. As the results got better or worse, I decreased the amount of change applied to the parameters, until the car drove nicely around the track.
 
 ![track1](https://github.com/ArjaanBuijk/CarND-PID-Control-Project/blob/master/Videos/video_PD.gif?raw=true)
 
@@ -60,7 +60,7 @@ The values chosen were:
 |Ki| 0.0004|
 |Kd|1.0|
 
-![track1](https://github.com/ArjaanBuijk/CarND-PID-Control-Project/blob/master/Videos/video_PID.gif?raw=true)
+A video of the end result is shown at the beginning of this document.
 
 
 # 6. Summary
