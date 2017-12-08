@@ -16,7 +16,7 @@ The goals / steps of this project are the following:
 My project includes the following files:
 
 - [<b>C++</b> - The source code](https://github.com/ArjaanBuijk/CarND-PID-Control-Project/tree/master/src)
-- [<b>writeup_report.md</b> - A summary of the project](https://github.com/ArjaanBuijk/CarND-PID-Control-Project/blob/master/writeup_report.md)
+- [<b>README.md</b> - A summary of the project](https://github.com/ArjaanBuijk/CarND-PID-Control-Project/blob/master/README.md)
 - [<b>video_P.gif</b> - Animated gif showing the car driving on the track using a P controller](https://github.com/ArjaanBuijk/CarND-PID-Control-Project/blob/master/Videos/video_P.gif)
 - [<b>video_PD.gif</b> - Animated gif showing the car driving on the track using a PD controller](https://github.com/ArjaanBuijk/CarND-PID-Control-Project/blob/master/Videos/video_PD.gif)
 - [<b>video_PID.gif</b> - Animated gif showing the car driving on the track using a PID controller](https://github.com/ArjaanBuijk/CarND-PID-Control-Project/blob/master/Videos/video_PID.gif)
